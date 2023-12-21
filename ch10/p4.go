@@ -15,7 +15,7 @@ func printNumbers(input []interface{}) {
 }
 
 func main() {
-	// had to use []interface{} to simulate multidimensional arrays that could hold ints or other arrays
+	// had to use []interface{} to simulate multidimensional slices that could hold ints or other slices
 	arr1 := []interface{}{
 		1,
 		2,
